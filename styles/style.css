@@ -1,0 +1,102 @@
+
+    body {
+        background: linear-gradient(45deg,rgb(233, 233, 234),rgba(65, 137, 189,0.1));
+        direction: rtl;
+    }
+    #logo {
+        direction: ltr;
+        max-width: 12%;
+        max-height: 12%;
+        z-index: 1;
+        position: fixed;
+        left:10px;
+
+    }
+
+  /*  li:hover {
+        animation-name: background-color;
+        animation-duration: 1000ms;
+        animation-fill-mode: forwards;
+    }
+    @keyframes background-color {
+        100% {
+            background-color: rgba(65, 137, 189,0.1);
+            border-radius: 50%;
+        }
+
+    }
+   */ 
+    /*@keyframes rainbow {
+        0% {
+            background-color: blue;
+        }
+
+        50% {
+            background-color: green;
+            opacity:0.1;
+        }
+
+        100% {
+            background-color: yellow;
+        }*/
+    li {
+        list-style: none;
+        position: relative;
+        right:1px;
+    }
+    /*#logo:hover {
+            transform: scale(2.1);
+        }*/
+    h1 {
+        direction:ltr;
+        position: relative;
+        left: 85px;
+        top: 31px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 56px;
+        z-index: 2;
+        color: rgb(153, 186, 221);
+    }
+    body {
+        font-family: 'Assistant', sans-serif;
+    }
+    .MainMenu {
+        /*background-color: rgba(128, 128, 128,0.05);*/
+        font-family: 'Assistant', sans-serif;
+        position: fixed;
+        top: 60px;
+        right: 10px;
+        /*background-color: rgba(0, 148, 255,0.1);
+        padding-top: 0.2em;
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-bottom: 0.3em;*/
+        margin:50px auto;
+    }
+    .mainMenuDiv {
+        background-color: rgba(65, 137, 189, 0.3);
+        box-shadow: 5px 1px 5px 5px rgba(65, 137, 189, 0.3);
+        border-radius: 50%;
+        position: relative;
+        margin: 18px;
+        -webkit-padding-after: 13px;
+        -webkit-padding-before: 13px;
+        -webkit-padding-start: 13px;
+        -webkit-padding-end: 26px;
+        text-align: center;
+        opacity: 0.7;
+    }
+    .mainMenuDiv:hover {
+        opacity: 1;
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        font: bolder;
+    }
+
+    #TheethChart{
+        position: absolute;
+        top:20em;
+        right:25em;
+        margin:auto;
+    }
